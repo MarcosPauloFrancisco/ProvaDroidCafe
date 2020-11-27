@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_row="8"
+    android:layout_column="4"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_row="0"
+        android:layout_column="0"
+        android:layout_columnSpan="4"
+        android:layout_gravity="fill_horizontal"
+        android:fontFamily="sans-serif"
+        android:padding="8dp"
+        android:text="Sobremesas Droid"
+        android:textAllCaps="false"
+        android:textSize="40dp"
+        android:textStyle="bold|italic" />
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_row="1"
+        android:layout_rowSpan="2"
+        android:layout_column="0"
+        android:layout_gravity="fill_vertical"
+        app:srcCompat="@drawable/donut_circle" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="259dp"
+        android:layout_row="1"
+        android:layout_column="2"
+        android:text="Donuts sao polvilhados com Doces" />
+
+    <TextView
+        android:id="@+id/quantidade1"
+        android:layout_row="2"
+        android:layout_column="2"
+        android:text="10" />
+
+    <ImageView
+        android:id="@+id/image2"
+        android:layout_row="3"
+        android:layout_rowSpan="2"
+        android:layout_column="0"
+        android:layout_gravity="fill_vertical"
+        app:srcCompat="@drawable/icecream_circle" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="257dp"
+        android:layout_row="3"
+        android:layout_column="2"
+        android:text="Sanduiches de Sorvete tem Wafers de Chocolatee recheio de baunilha" />
+
+    <TextView
+        android:id="@+id/quantidade2"
+        android:layout_row="4"
+        android:layout_column="2"
+        android:text="20" />
+
+    <ImageView
+        android:id="@+id/image3"
+        android:layout_row="5"
+        android:layout_rowSpan="2"
+        android:layout_column="0"
+        android:layout_gravity=""
+        app:srcCompat="@drawable/froyo_circle" />
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="259dp"
+        android:layout_row="5"
+        android:layout_column="2"
+        android:text="Frayo iogurte Congelado self-service premium" />
+
+    <TextView
+        android:id="@+id/quantidade3"
+        android:layout_row="6"
+        android:layout_column="2"
+        android:text="30" />
+
+
+</GridLayout>
